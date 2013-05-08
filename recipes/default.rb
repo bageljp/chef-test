@@ -1,5 +1,3 @@
-%w {zsh gcc make readline-devel}.each do |pkg|
-  package pkg do
-    action :install
-  end
+package "zsh" do
+  action :install
 end
